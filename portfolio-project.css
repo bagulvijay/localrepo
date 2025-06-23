@@ -1,0 +1,83 @@
+*{
+    margin:0;
+    font-family:Arial, Helvetica, sans-serif;
+}
+body{
+    width:390px;
+}
+.header{
+    padding: 15px 30px;
+}
+header p{
+    margin-top:10px;
+    margin-bottom:10px;
+}
+header h2{
+    margin-top:10px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.head-line1{
+    font-weight:500;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight:500;
+}
+.head-line2{
+    font-size:14px;
+}
+.projectbutton{
+    margin-top:10px;
+    margin-bottom:10px;
+    border:none;
+    height:30px;
+    width:110px;
+    background-color:rgb(255, 157, 0);
+    border-radius:5px;
+    font-size:12px;
+    color:white;
+    font-family:'Times New Roman', Times, serif;
+}
+.projectbutton:hover{
+    background-color:rgba(255, 157, 0, 0.815);
+}
+.projectbutton:active{
+    background-color:rgba(255, 157, 0, 0.815);
+}
+h3{
+    font-size:1rem;
+}
+.herosection p{
+    font-size:0.80rem;
+    text-align:left;
+}
+.skillboxes{
+    display:flex;
+}
+.box{
+    height:20px;
+    width:100%;
+    background-color:black;
+    color:white;
+    margin-left:10px;
+    font-size:10px;
+    display:flex;
+    justify-content:center;
+    padding-top:10px;
+    border-radius:5px;
+    
+}
+.projectsection{
+    display:flex;
+}
+.project{
+    border:1px solid black;
+    margin-right:25px;
+    padding:5px;
+}
+.project span{
+    font-size:0.80rem;
+}
+footer a{
+    text-decoration:none;
+    color:black;
+    font-size:0.80rem;
+}
